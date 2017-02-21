@@ -1,0 +1,65 @@
+{
+	"itemName" : "Thunderbird",
+	"price" : 0,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "Guns : 10mm Auto",
+	"description" : "A gun so good it replaced both of America's once-popular handguns.",
+	"shortdescription" : "Thunderbird",
+	"tooltipKind" : "base",
+	"twoHanded" : true,
+	
+	"inventoryIcon" : "/items/FalloutBound/sprite/guns/10mm/Thunderbird.png",
+	
+	"animation" : "gunsprite.animation",
+	"animationParts" : { },
+	"animationCustom" : { },
+	"animationKey" : {				//animationtracks etc
+		"key" : 1,
+		"tracks" : {
+			"shoot" : [
+				{
+					"value" : {"gun_rotation" : 0, "gun_x" : 0.25},
+					"step" : 2,
+					"sound" : {}
+				}, 
+				{
+					"value" : {"gun_rotation" : 10, "gun_x" : 0.25},
+					"step" : 5,
+					"sound" : {}
+				}, 
+				{
+					"value" : {"gun_rotation" : 0, "gun_x" : 0.25},
+					"step" : 5,
+					"sound" : {}
+				}
+			]
+		},
+		"fixed" : false,
+		"doneplaying" : "",
+		"step" : 30,
+		"currentstep" : 1
+	}, 
+	"parts" : {"gun_x" : 0.25, "gun_y" : 0, "gun_rotation" : 0}, //set your offset stuff here
+	
+	//The higher, The more harder to control
+	"gunConfig" : {	
+		"inaccuracy" : 0, //Your random number generator
+		"compatibleAmmo" : [ "10mm" ],
+		"projectileConfig" : {"speed" : 90},
+		"projectileType" : "bullet-2",
+		"smokeEffect" : true,
+		"shellEffect" : true,
+		"fireOffset" : [2,0.25],			//the projectile pos
+		"shellOffset" : [1,0.25], 		//the falling shell init pos
+		"fireSpeed" : 0.09,			//atataatatatatata
+		"gunSounds" : ["fire"], 		//Sounds from .animation
+		"fireMode" : "semi", 		//auto, burst, semi
+		"burstAmount" : 5,
+		"burstCooldown" : 0.8,
+		"recoilPower" : 20,			//The higher, The more harder to control
+		"recoilRecovery" : 8 		//Higher the slower
+	},
+	
+	"scripts" : ["/items/FalloutBound/main.lua"]
+}

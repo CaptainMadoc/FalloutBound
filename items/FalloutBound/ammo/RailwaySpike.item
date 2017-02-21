@@ -1,0 +1,10 @@
+{
+	"itemName" : "RailwaySpike",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 10000,
+	"inventoryIcon" : "/items/FalloutBound/sprite/shells/RailwaySpikeStandard.png",
+	"description" : "",
+	"shortdescription" : "Railway Spikes"
+}
