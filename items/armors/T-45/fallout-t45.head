@@ -9,8 +9,8 @@
   "shortdescription" : "T-45 Helmet",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
+  "maleFrames" : "fallout-t45helmet.png",
+  "femaleFrames" : "fallout-t45helmet.png",
   "mask" : "mask.png",
 
   "level" : 1,

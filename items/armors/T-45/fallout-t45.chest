@@ -11,14 +11,14 @@
 
   "maleFrames" : {
     "body" : "chestm.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
+    "backSleeve" : "fallout-t45armsb.png",
+    "frontSleeve" : "fallout-t45armsf.png"
   },
 
   "femaleFrames" : {
     "body" : "chestf.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
+    "backSleeve" : "fallout-t45armsb.png",
+    "frontSleeve" : "fallout-t45armsf.png"
   },
 
   "level" : 1,

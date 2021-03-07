@@ -9,8 +9,8 @@
   "shortdescription" : "T-45 Chassis",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : "fallout-t45body.png",
+  "femaleFrames" : "fallout-t45body.png",
 
   "level" : 1,
   "leveledStatusEffects" : [
