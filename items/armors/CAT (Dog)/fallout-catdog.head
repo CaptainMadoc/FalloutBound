@@ -1,7 +1,7 @@
 {
   "itemName" : "fallout-catdoghead",
   "price" : 480,
-  "inventoryIcon" : "icons-dog.png:head",
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
@@ -9,8 +9,8 @@
   "shortdescription" : "CAT Suit Rover Helmet",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "headdog.png",
-  "femaleFrames" : "headdog.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
   "level" : 1,
