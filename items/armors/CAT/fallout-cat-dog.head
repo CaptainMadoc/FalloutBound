@@ -1,16 +1,16 @@
 {
-  "itemName" : "fallout-t45head",
+  "itemName" : "fallout-catdoghead",
   "price" : 480,
-  "inventoryIcon" : "icons.png:head",
+  "inventoryIcon" : "icons-dog.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
   "description" : "",
-  "shortdescription" : "T-45 Helmet",
+  "shortdescription" : "CAT Suit Rover Helmet",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
+  "maleFrames" : "headdog.png",
+  "femaleFrames" : "headdog.png",
   "mask" : "mask.png",
 
   "level" : 1,
