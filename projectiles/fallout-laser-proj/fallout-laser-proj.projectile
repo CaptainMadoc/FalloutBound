@@ -2,6 +2,7 @@
   "projectileName" : "fallout-laser-proj",
   "image" : "fallout-laser-proj.png",
   "animationCycle" : 0.25,
+  "fullbright" : true,
   "frameNumber" : 1,
   "pointLight" : false,
   "actionOnHit" : [
@@ -10,7 +11,8 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "power" : 20.0
+  "power" : 20.0,
+  "speed" : 100
 }
 
 
