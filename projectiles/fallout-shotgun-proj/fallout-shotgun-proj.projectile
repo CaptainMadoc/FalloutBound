@@ -1,0 +1,81 @@
+{
+  "projectileName" : "fallout-shotgun-proj",
+  "image" : "fallout-shotgun-proj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "power" : 3.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.99,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 2.8
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.98,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 2.4
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.97,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.96,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 1.6
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.95,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 1.2
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.94,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 0.8
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj2",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 1.93,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 0.4
+    },
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgun-proj1",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 2,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 0
+    }
+  ]
+}

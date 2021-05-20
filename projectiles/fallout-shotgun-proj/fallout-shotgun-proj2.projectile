@@ -1,0 +1,15 @@
+{
+  "projectileName" : "fallout-shotgun-proj2",
+  "image" : "fallout-shotgun-proj2.png",
+  "animationCycle" : 0.25,
+  "timeToLive" : 0.75,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "power" : 20.0
+}
