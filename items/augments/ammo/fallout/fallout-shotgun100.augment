@@ -1,12 +1,12 @@
 {
-  "itemName" : "fallout-shotgun",
+  "itemName" : "fallout-shotgun100",
   "price" : 5,
   "rarity" : "Common",
   "tooltipKind" : "ammoitem",
   "category" : "Bolt",
-  "inventoryIcon" : "fallout-shotgun-i.png",
+  "inventoryIcon" : "fallout-shotgun100-i.png",
   "description" : "",
-  "shortdescription" : "Shotgun Shells",
+  "shortdescription" : "Shotgun Shells (100)",
 
   "ammoType" : "fallout-shotgun",									//type of ammo, has to be same as itemname since it's used for giving the ammo back in case of unloading
   "ammoTag"  : "fallout-shotgun",												//ammo tag, has to match one of the tags in weapons "ammoTags" list
@@ -14,7 +14,7 @@
   "ammoIcon" : "/items/augments/ammo/fallout/fallout-shotgun-i.png",				//used for the tooltip
   "ammoProjectile" : "fallout-shotgun-proj",									//overrides projectile for the primary attack
   "ammoProjectileCount" : 1,										//overrides projectile count for the primary. Damage is divided evenly across the projectiles
-  "ammoCount" : 1,													//determines how much ammo this item restores. The excess will be returned in items specified in "ammoType"
+  "ammoCount" : 100,													//determines how much ammo this item restores. The excess will be returned in items specified in "ammoType"
   "ammoDamage" : 20,													//damage per shot added by this type of ammo. This damage is split between all projectiles if projectile count is not 1
 
   "scripts" : [ "/items/augments/ammo/ammo.lua" ]
