@@ -1,0 +1,25 @@
+{
+  "projectileName" : "fallout-shotgunslug-proj",
+  "image" : "fallout-shotgunslug-proj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "actionOnHit" : [
+    {
+      "action" : "config",
+      "file" : "/fx/gbbulletimpact/action.config"
+    }
+  ],
+  "power" : 3.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "fallout-shotgunslug-proj1",
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 1,
+      "angleAdjust" : 0,
+      "fuzzAngle" : 0
+    }
+  ]
+}
